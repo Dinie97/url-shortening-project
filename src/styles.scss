@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* @import "~bootstrap/dist/css/bootstrap.css."; */
+@import '~bootstrap/scss/bootstrap';
+@import url(./styles.overide.css);
+
+$padding-space : 1rem;
+$poppin-font: poppins;
+$font-bolder: 700;
+$grayish-color : hsl(257, 7%, 63%);
+$cyan-color: hsl(180, 66%, 49%);
+$white-color:#fff;
+
+html{
+    overflow-x: hidden;
+}
+
+*{
+    font-family: $poppin-font;
+}
+
+span, p{
+    font-family: $poppin-font;
+    font-weight: 500;
+  }

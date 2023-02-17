@@ -1,0 +1,40 @@
+$padding-space : 1rem;
+$poppin-font: poppins;
+$font-bolder: 700;
+$grayish-color : hsl(257, 7%, 63%);
+$cyan-color: hsl(180, 66%, 49%);
+$white-color:#fff;
+
+
+
+.menu{
+  padding-right: $padding-space;
+  font-weight: $font-bolder;
+}
+
+span.menu{
+  color: $grayish-color;
+}
+
+
+.nav-menu{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.sub-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: $cyan-color;
+  border-radius: 20px;
+  color: $white-color;
+  width: 7rem;
+  font-weight: $font-bolder;
+}
