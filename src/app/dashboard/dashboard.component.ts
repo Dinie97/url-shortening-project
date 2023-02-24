@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Clipboard } from '@angular/cdk/clipboard';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private clipboard: Clipboard) { }
   ngOnInit(): void {
   }
+
+
+  copyLink() {
+    this.clipboard.copy('https://rel.link/k4lkyk');
+  }
+
 
 }
