@@ -48,7 +48,7 @@ $dark-violet :  hsl(257, 27%, 26%);
 
 .input-box{
     width: 80%;
-    min-height: 6rem;
+    min-height: 8rem;
     background-color: $dark-violet;
     background-image: url(../../assets/images/bg-shorten-desktop.svg);
     display: flex;
@@ -62,14 +62,229 @@ $dark-violet :  hsl(257, 27%, 26%);
 
 .box {
     width: 80%;
+    margin: 0 1rem;
 }
 
 .short-btn {
     background-color: $cyan-color;
-    width: 10%;
+    width: 8rem;
+    margin: 1rem;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.text-box {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-text {
+    font-weight: $font-bolder;
+}
+
+.text-descp {
+    width: 65%;
+    text-align: center;
+    color:$grayish-color;
+}
+
+.box-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+    padding-bottom: 9rem;
+}
+
+.brand {
+    width: 25%;
+    background: #fff;
+    padding: 1rem 2rem;
+    z-index: 2;
+}
+
+.brand:nth-child(3){
+    position: relative;
+    top: 3rem;
+}
+
+.brand:nth-child(4){
+    position: relative;
+    top: 6rem;
+}
+
+
+.icon {
+    background-color: $dark-violet;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
     display: grid;
     place-content: center;
-    height: 2.5rem;
+    position: relative;
+    bottom: 4rem;
+}
+
+.brand-title {
+    position: relative;
+    bottom: 2rem;
+    font-weight: 700;
+}
+
+
+.brand-descp {
+    position: relative;
+    bottom: 1rem;
+    color: $grayish-color;
+}
+
+.divider{
+    width: 50%;
+    border-top: 7px solid;
+    color: $cyan-color;
+    z-index: 1;
+    position: absolute;
+    bottom: 50rem;
+}
+
+.boost-link{
+    position: relative;
+    width: 100%;
+    background-color: $dark-violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    background-image: url(../../assets/images/bg-boost-desktop.svg);
+}
+
+
+.boost-text {
+    color: $white-color;
+    font-weight: 700;
+    margin: 2rem;
+}
+
+.facebook{
+    background-image: url(../../assets/images/icon-facebook.svg);
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+}
+
+.twitter{
+    background-image: url(../../assets/images/icon-twitter.svg);
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+}
+
+.pinterest{
+    background-image: url(../../assets/images/icon-pinterest.svg);
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+}
+
+.instagram{
+    background-image: url(../../assets/images/icon-instagram.svg);
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+}
+
+.contact-us{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: hsl(260, 8%, 14%);
+    color: $white-color;
+}
+
+.comp-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.details {
+    padding: 0 2rem;
+}
+
+ul.details-bullet {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+
+.social-icon{
+    margin: 0 0.5rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title{
+    font-weight: 700;
+}
+
+
+.result-links {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 4rem;
+    border-radius: 8px;
+    padding: 0 3rem;
+    margin: 0.5rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.short-link{
+    color: $cyan-color;
+    padding: 0 1rem;
+}
+
+.copy-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.copy-btn {
+    background: $cyan-color;
+    width: 5rem;
+    height: 2rem;
     border-radius: 5px;
     color: $white-color;
+}
+
+.copied-btn {
+    width: 5rem;
+    background-color: hsl(255, 11%, 22%);
+    color: #fff;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.copy-btn:hover{
+    background-color: #2acfcfa1;
 }
